@@ -56,8 +56,8 @@ Build a dashboard for student, instructor and Admin roles and can be suitably us
 - User can update lectures  by making a patch request at http://localhost:3000/lectures/:lecture_id with the following schema
 ```js
   "title" : "put_updated_title_here",
-  "author_id" : "put author_id here you recieved while signing in",
-  "batch" : "put the updated batch_name here"
+  "batch" : "put the updated batch_name here",
+  "author_id" : "put author_id here you recieved while signing in"
 ```
 - User can delete lectures  by making a delete request at http://localhost:3000/lectures/:lecture_id with the following schema, if he is able to pass the authorization then lecture will be delted else it will display that you doesn't have the right permission 
 ```
