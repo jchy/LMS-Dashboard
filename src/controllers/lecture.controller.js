@@ -53,6 +53,15 @@ router.patch('/lectures/:lecture_id' ,async (req,res)=>{
     }
 });
 
-
+router.get('/lectures/:id', async (req,res)=>{
+    try{
+        const lecture = await Lecture.findOne({ _id: req.params.lecture_id })
+        if(!lecture) return res.status(404).json({msg: "Lecture not found"})
+        res.status(200).json(lecture)
+    }
+    catch(err){
+        return res.status(400).json({msg: "Something went wrong!"})
+    }
+});
 
 module.exports = router;
