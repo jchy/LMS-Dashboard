@@ -1,5 +1,19 @@
 # LMS-Dashboard
 Build a dashboard for student, instructor and Admin roles and can be suitably used by the institue
+
+#### To run this project follow the following steps:~
+- Step 1. Clone this project on your local machine
+- Step 2. Navigate inside the LMS-Dashboard directory
+- Step 3. Run the following command in your terminal
+```js
+    npm install
+```
+- Step 4. To Run the project run the following command in your terminal
+```js
+    npm run start
+```
+## Features of this project
+
 #### Sign-up :
 - user can signup by visiting at http://localhost:3000/signin url, using the following Schema 
 ```js
