@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 const bcrypt=require('bcrypt');
 
 const studentSchema = new mongoose.Schema({
-    roll_number: {type: String, required: true, unique: true},
+    roll_number: {type: Number, required: true, unique: true},
     user : {
        type : mongoose.Schema.Types.ObjectId,
        ref : 'User',

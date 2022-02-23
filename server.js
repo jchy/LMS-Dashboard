@@ -16,8 +16,8 @@ app.post("/signup", signup);
 app.post("/signin", signin);
 
 app.use("/users", userController);
-app.use("/lectures", lectureController);
-app.use("/students", studentController);
+app.use("/", lectureController);
+app.use("/", studentController);
 
 
 
