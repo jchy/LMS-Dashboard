@@ -2,8 +2,14 @@
 Build a dashboard for student, instructor and Admin roles and can be suitably used by the institue
 
 #### To run this project follow the following steps:~
-- Step 1. Clone this project on your local machine
+- Step 1. Clone this project on your local machine by using following command
+```js 
+    git clone https://github.com/jchy/LMS-Dashboard.git
+```
 - Step 2. Navigate inside the LMS-Dashboard directory
+```js
+    cd LMS-Dashboard
+```
 - Step 3. Run the following command in your terminal
 ```js
     npm install
